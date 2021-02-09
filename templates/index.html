@@ -1,6 +1,20 @@
 {% extends "layout.html" %}
 {% block content %}
 
-  <p class="mt-5 mb-3 text-muted">&copy; IBM Corporation 2021</p>
+  <div class="center-body">
+    <h1 class="h1 mb-3 font-weight-normal">Blue Green Demo</h1>
+    <br>
+    {% if color=="green" %}
+      <div class="green">
+        Green Version
+      </div>
+    {% else %}
+      <div class="blue">
+        Blue Version
+      </div>      
+    {% endif %}
+    <br>
+    <p class="mt-5 mb-3 text-muted">&copy; IBM Corporation 2021</p>
+  </div>
 
 {% endblock content %}

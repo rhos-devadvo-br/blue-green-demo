@@ -18,26 +18,26 @@ body {
     margin: auto;
     font-size: 16px;
 }
-.form-signin {
+.center-body {
     width: 100%;
     max-width: 400px;
     padding: 15px;
     margin: auto;
 }
-.form-signin .checkbox {
+.center-body .checkbox {
     font-weight: 400;
 }
-.form-signin .form-control {
+.center-body .form-control {
     position: relative;
     box-sizing: border-box;
     height: auto;
     padding: 10px;
     font-size: 16px;
 }
-.form-signin .form-control:focus {
+.center-body .form-control:focus {
     z-index: 2;
 }
-.form-signin input[type="email"] {
+.center-body input[type="email"] {
     margin-bottom: -1px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
@@ -117,4 +117,26 @@ body {
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-outline-primary.dropdown-toggle:focus {
     box-shadow: 0 0 0 .2rem rgba(0, 0, 0, 0.5)
+}
+
+.blue {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    font-size: 16px;
+}
+
+.green {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    font-size: 16px;
 }
